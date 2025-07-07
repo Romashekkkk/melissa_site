@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Мелисса — студия цветов и подарков</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f7fdfc;
+      color: #333;
+    }
+    header {
+      background-color: #e0f3ef;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      height: 80px;
+    }
+    h1 {
+      font-size: 32px;
+      margin: 10px 0 0;
+    }
+    p.subtext {
+      font-size: 14px;
+      color: #666;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding: 20px;
+      scroll-snap-type: x mandatory;
+    }
+    .carousel img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      scroll-snap-align: start;
+    }
+    .carousel-item {
+      flex: none;
+      text-align: center;
+    }
+    .section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      color: #2b8d7e;
+    }
+    .contact {
+      background-color: #d6f1eb;
+      padding: 20px;
+      text-align: center;
+    }
+    .contact p {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #e0f3ef;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img/IMG_4782.PNG" alt="Логотип Melissa" />
+    <h1>Мелисса</h1>
+    <p class="subtext">Студия цветов & подарков</p>
+  </header>
+
+  <div class="section">
+    <h2>Наши букеты</h2>
+    <div class="carousel">
+      <div class="carousel-item">
+        <img src="img/IMG_4783.PNG" alt="Букет 1" />
+        <p>Букет «Нежность» — 3500 ₽</p>
+      </div>
+      <div class="carousel-item">
+        <img src="img/IMG_4784.JPG" alt="Букет 2" />
+        <p>Букет с орхидеями — 4200 ₽</p>
+      </div>
+      <div class="carousel-item">
+        <img src="img/IMG_4785.JPG" alt="Букет 3" />
+        <p>Букет «Любовь» — 4700 ₽</p>
+      </div>
+      <div class="carousel-item">
+        <img src="img/IMG_4786.JPG" alt="Букет 4" />
+        <p>Классические розы — 3900 ₽</p>
+      </div>
+      <div class="carousel-item">
+        <img src="img/IMG_4787.JPG" alt="Букет 5" />
+        <p>Гвоздики микс — 3100 ₽</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Подарки</h2>
+    <p>✨ Ароматные свечи ручной работы</p>
+    <p>🧸 Вязаные игрушки — от 800 ₽</p>
+  </div>
+
+  <div class="contact">
+    <h2>Связаться с нами</h2>
+    <p>📞 Заказы по телефону: <a href="tel:+79024813339">+7 902 481-33-39</a></p>
+    <p>📍 Приморский край, Владивосток, ул. Терешковой, 28</p>
+  </div>
+
+  <footer>
+    © 2025 Мелисса — студия цветов и подарков. Все права защищены.
+  </footer>
+</body>
+</html>
